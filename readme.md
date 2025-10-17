@@ -34,28 +34,29 @@ A full-stack deep learning application that recognizes handwritten digits (0-9) 
 
 ## 📁 Project Structure
 
+```
 digit-recognition/
 ├── backend/
-│ ├── app.py # Flask API server
-│ ├── model.py # CNN model training script
-│ ├── requirements.txt # Python dependencies
-│ └── models/
-│ └── mnist_model.h5 # Trained model (generated)
+│   ├── app.py                 # Flask API server
+│   ├── model.py               # CNN model training script
+│   ├── requirements.txt       # Python dependencies
+│   └── models/
+│       └── mnist_model.h5     # Trained model (generated)
 ├── frontend/
-│ ├── app/
-│ │ ├── page.tsx # Main page
-│ │ ├── layout.tsx # Root layout
-│ │ └── globals.css # Global styles
-│ ├── components/
-│ │ └── DrawingCanvas.tsx # Canvas component
-│ ├── package.json
-│ ├── next.config.js
-│ ├── tsconfig.json
-│ ├── tailwind.config.js
-│ └── postcss.config.js
+│   ├── app/
+│   │   ├── page.tsx          # Main page
+│   │   ├── layout.tsx        # Root layout
+│   │   └── globals.css       # Global styles
+│   ├── components/
+│   │   └── DrawingCanvas.tsx # Canvas component
+│   ├── package.json
+│   ├── next.config.js
+│   ├── tsconfig.json
+│   ├── tailwind.config.js
+│   └── postcss.config.js
 ├── .gitignore
 └── README.md
-
+```
 
 ## 📋 Prerequisites
 
