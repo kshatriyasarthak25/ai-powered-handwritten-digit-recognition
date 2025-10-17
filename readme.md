@@ -149,17 +149,6 @@ This project uses the **MNIST dataset**:
 
 The dataset is automatically downloaded during model training.
 
-## 🎯 Future Enhancements
-
-- [ ] Add confidence threshold filtering
-- [ ] Support for multiple digit recognition
-- [ ] Export predictions to CSV
-- [ ] Model performance metrics dashboard
-- [ ] Docker containerization
-- [ ] Cloud deployment (Vercel + Railway)
-- [ ] Add data augmentation during training
-- [ ] Implement model versioning
-
 ## 🙏 Acknowledgments
 
 - **MNIST Database**: Yann LeCun and Corinna Cortes
